@@ -2,8 +2,13 @@
     int main(){
         int a;
         int b;
-        printf(" please input the value of a and b:");
-        scanf("&d\n",a ,b);
-        printf("the value of a and b is:%d/n,%d/n",a,b);
+        int c;
+        int d;
+        printf(" please input the value of a,b,c,d:");
+        scanf("%d %d %d %d",&a ,&b ,&c ,&d);
+        int sum=a+b+c+d;
+        int avg=sum/4;
+        printf("The sum of four Numbers is:%d\n",sum);
+        printf("The average marks scored by the student is:%d",avg);
         return 0;
     }
